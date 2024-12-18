@@ -1,0 +1,20 @@
+{
+    "name": "MyMvcApp-Contact-Database-Application",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "dotnet run",
+        "build": "dotnet build",
+        "publish": "dotnet publish -c Release -o ./publish"
+    },
+    "dependencies": {
+        "Microsoft.AspNetCore.Mvc": "2.2.0",
+        "Microsoft.EntityFrameworkCore": "2.2.0",
+        "Microsoft.EntityFrameworkCore.SqlServer": "2.2.0"
+    },
+    "deploy": {
+        "provider": "azure",
+        "resourceGroup": "MyMvcAppResourceGroup",
+        "appServicePlan": "MyMvcAppServicePlan",
+        "webAppName": "MyMvcAppWebApp"
+    }
+}
