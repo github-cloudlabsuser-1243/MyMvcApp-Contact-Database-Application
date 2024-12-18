@@ -13,8 +13,8 @@
     },
     "deploy": {
         "provider": "azure",
-        "resourceGroup": "MyMvcAppResourceGroup",
-        "appServicePlan": "MyMvcAppServicePlan",
-        "webAppName": "MyMvcAppWebApp"
+        "resourceGroup": "GitHub-Copilot-Challenges",
+        "appServicePlan": "ASP-GitHubCopilotChallenges-95fd",
+        "webAppName": "myWebAppabhi"
     }
 }

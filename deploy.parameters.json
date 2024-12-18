@@ -3,16 +3,16 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "appServicePlanName": {
-            "value": "myAppServicePlan"
+            "value": "ASP-GitHubCopilotChallenges-95fd"
         },
         "webAppName": {
-            "value": "myWebApp"
+            "value": "myWebAppabhi"
         },
         "location": {
-            "value": "West US"
+            "value": "Canada Central"
         },
         "sku": {
-            "value": "F1"
+            "value": "Standard"
         },
         "databaseName": {
             "value": "myDatabase"
